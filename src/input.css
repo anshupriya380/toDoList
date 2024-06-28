@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    ul li{
+        @apply bg-yellow-300 text-4xl max-w-96 border-t-2 border-dotted rounded-b-md
+    }
+    div img{
+        @apply rounded-full size-6
+    }
+}
+
